@@ -1,0 +1,35 @@
+*.class
+
+/node_modules
+
+# SSH Keys
+*.pem
+*.ppk
+
+# MOBILE TOOLS
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Gradle tmp Files
+target/
+
+# Eclipse Files
+**/.project
+**/.classpath
+**/.settings/
+/bin/
+blog/bin/
+**/.tern-project
+
+#Intellij files
+**/*.iml
+**/.idea
+**/.gradle
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/.metadata/
